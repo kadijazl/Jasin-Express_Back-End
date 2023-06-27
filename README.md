@@ -12,6 +12,9 @@ General layout of the project in eclipse:
         /courier
           /controller
             AddCourierController.java
+            DeleteCourierController.java
+            ListCourierController.java
+            UpdateCourierController.java
           /dao
             CourierDAO.java
           /model
@@ -21,6 +24,9 @@ General layout of the project in eclipse:
         /delivery
           /controller
             AddDeliveryController.java
+            DeleteDeliveryController.java
+            ListDeliveryController.java
+            UpdateDeliveryController.java
           /dao
             DeliveryDAO.java
           /model
@@ -28,6 +34,9 @@ General layout of the project in eclipse:
         /parcel
           /controller
             AddParcelController.java
+            DeleteParcelController.java
+            ListParcelController.java
+            UpdateParcelController.java
           /dao
             ParcelDAO.java
           /model
@@ -35,6 +44,9 @@ General layout of the project in eclipse:
         /staff
           /controller
             AddStaffController.java
+            DeleteStaffController.java
+            ListStaffController.java
+            UpdateStaffController.java
           /dao
             StaffDAO.java
           /model
@@ -42,6 +54,9 @@ General layout of the project in eclipse:
         /transaction
           /controller
             AddTransactionController.java
+            DeleteTransactionController.java
+            ListTransactionController.java
+            UpdateTransactionController.java
           /dao
             TransactionDAO.java
           /model
