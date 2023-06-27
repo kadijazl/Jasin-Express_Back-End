@@ -64,15 +64,25 @@ General layout of the project in eclipse:
       /webapp
         /courier
           AddCourier.jsp
+          ListCourier.jsp
+          UpdateCourier.jsp
         /delivery
           AddDelivery.jsp
+          ListDelivery.jsp
+          UpdateDelivery.jsp
         /META-INF
         /parcel
           AddParcel.jsp
+          ListParcel.jsp
+          UpdateParcel.jsp
         /staff
           AddStaff.jsp
+          ListStaff.jsp
+          UpdateStaff.jsp
         /transaction
           AddTransaction.jsp
+          ListTransaction.jsp
+          UpdateTransaction.jsp
         /WEB-INF
 
 These are just suggestions, feel free to edit~
