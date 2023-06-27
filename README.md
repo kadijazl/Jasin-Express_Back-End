@@ -27,16 +27,25 @@ General layout of the project in eclipse:
             Delivery.java
         /parcel
           /controller
+            AddParcelController.java
           /dao
+            ParcelDAO.java
           /model
+            Parcel.java
         /staff
           /controller
+            AddStaffController.java
           /dao
+            StaffDAO.java
           /model
+            Staff.java
         /transaction
           /controller
+            AddTransactionController.java
           /dao
+            TransactionDAO.java
           /model
+            Transaction.java
       /webapp
         /courier
           AddCourier.jsp
