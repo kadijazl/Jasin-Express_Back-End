@@ -13,13 +13,18 @@ General layout of the project in eclipse:
           /controller
             AddCourierController.java
           /dao
+            CourierDAO.java
           /model
+            Courier.java
         /db
           ConnectionManager.java
         /delivery
           /controller
+            AddDeliveryController.java
           /dao
+            DeliveryDAO.java
           /model
+            Delivery.java
         /parcel
           /controller
           /dao
@@ -36,10 +41,14 @@ General layout of the project in eclipse:
         /courier
           AddCourier.jsp
         /delivery
+          AddDelivery.jsp
         /META-INF
         /parcel
+          AddParcel.jsp
         /staff
+          AddStaff.jsp
         /transaction
+          AddTransaction.jsp
         /WEB-INF
 
 These are just suggestions, feel free to edit~
