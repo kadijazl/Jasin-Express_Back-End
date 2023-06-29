@@ -45,7 +45,6 @@ public class UpdateCourierController extends HttpServlet {
 		
 		Courier courier = new Courier();
 		
-		//retrieve input from addShawl.jsp and set the values
 		courier.setCour_id(Integer.parseInt(request.getParameter("cour_id")));
 		courier.setCour_name(request.getParameter("cour_name"));
 		courier.setOffice_phonenum(request.getParameter("office_phonenum"));
