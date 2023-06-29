@@ -37,7 +37,7 @@ public class AddCourierController extends HttpServlet {
 		courier.setCour_name(request.getParameter("cour_name"));
 		courier.setOffice_phonenum(request.getParameter("office_phonenum"));
 		
-		dao.AddCourier(courier);
+		dao.addCourier(courier);
 		
 		request.setAttribute("couriers", CourierDAO.getAllCourier());
 		
@@ -46,4 +46,3 @@ public class AddCourierController extends HttpServlet {
 	}
 
 }
-
