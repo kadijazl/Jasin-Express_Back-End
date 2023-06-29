@@ -13,7 +13,7 @@ public class CourierDAO {
 	private String cour_name,office_phonenum;
 	
 	//addCourier()
-	public void AddCourier(Courier bean) {
+	public void addCourier(Courier bean) {
 		cour_name=bean.getCour_name();
 		office_phonenum=bean.getOffice_phonenum();
 		
